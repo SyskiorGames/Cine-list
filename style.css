@@ -47,23 +47,25 @@ main section{
     flex-direction: column;
     background: #F8D8C2;
     width: 90%;
-    height: 249px;
+    height: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    flex-wrap: wrap;
     max-width: 580px;
+    border: 1px solid black;
 }
 
 ul{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 li{
     width: 110px;
     height: auto;
     background: #CF3B3B;
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     transition: hover, 0.3s;
@@ -74,7 +76,7 @@ li:hover{
 }
 
  section li p{
-    margin: 0;
+    margin: 3px;
     color: rgb(39, 39, 39);
     font-size: 13px;
     text-align: center;
@@ -94,6 +96,7 @@ li a img{
 
 
 .title{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,9 +113,4 @@ li a img{
     font-size: 20px;
     text-align: center;
     margin: 0;
-}
-
-.movie_list{
-    margin-left: 5% ;
-    margin-right: 5%;
 }
