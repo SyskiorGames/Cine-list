@@ -34,8 +34,8 @@ header div{
 
 main{
     font-family: "Oswald", sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@ main section{
     display: flex;
     flex-direction: column;
     background: #F8D8C2;
-    width: 97%;
+    width: 99%;
     height: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -101,7 +101,7 @@ li a img{
     flex-direction: column;
     justify-content: center;
     max-width: 580px;
-    width: 97%;
+    width: 99%;
     height: 35px;
     background: #CF3B3B;
     border-top-left-radius: 30px;
